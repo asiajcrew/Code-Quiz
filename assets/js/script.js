@@ -1,5 +1,4 @@
 var timer = document.getElementById('timer');
-var mainEl = document.getElementById('main');
 
 // Timer that counts down from 75
 function countdown() {
@@ -25,5 +24,36 @@ function countdown() {
     }
   }, 1000);
 }
+
+// Question 1 and answer choices
+var body = document.body;
+var question1 = document.createElement("div");
+var question1List = document.createElement("ol");
+var question1Li1 = document.createElement("li");
+var question1Li2 = document.createElement("li");
+var question1Li3 = document.createElement("li");
+var question1Li4 = document.createElement("li");
+
+question1.textContent = "Commonly used data types do NOT include:";
+question1Li1.textContent = "Strings";
+question1Li2.textContent = "Booleans";
+question1Li3.textContent = "Alerts";
+question1Li4.textContent = "Numbers";
+
+question1List.appendChild(question1Li1);
+question1List.appendChild(question1Li2);
+question1List.appendChild(question1Li3);
+question1List.appendChild(question1Li4);
+
+// Event listener
+function nextQuestion() {
+    
+}
+question1Li1.addEventListener("click", function() {
+    nextQuestion();
+});
+
+body.appendChild(question1);
+body.appendChild(question1List);
 
 countdown();
