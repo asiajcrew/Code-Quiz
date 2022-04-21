@@ -9,15 +9,17 @@
 </head>
 <body>
     <div class="container">
+        <h2 id="timer"></h2>
+        <button id="high-score">View High Scores</button>
         <div id="home-page" class="flex-col flex-center">
-            <h2 id="timer"></h2>
-            <h1 class="welcome">Coding Quiz Challenge</h1>
-            <p>Try to answer the following code-relatd questions within the time limit.
-                Keep in mind that incorrect answers will penalize your score/time by ten seconds.
-            </p>
-            <button id="start-button">Start</button>
+            <h1 class="welcome"></h1>
+            <p class="quiz-rules"></p>
+            <button id="start-button">Start Quiz</button>
+
+            <ul id="first-question"></ul>
+                <li id="first-question-choices"></li>
+            
         </div>
-        
     </div>
     <script src="./assets/js/script.js"></script>
 </body>
