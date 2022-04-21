@@ -6,4 +6,4 @@
 * Future development for site includes the following:
   - Add additonal questions to the quiz
   - Add a high score keeper
-![app snippit](https://github.com/asiajcrew/Team-Profile-Generator/blob/main/img/app-screenshot.png)
+![app snippit](https://github.com/asiajcrew/Code-Quiz/blob/main/img/website%20screenshot.png)
